@@ -1,0 +1,128 @@
+body,p,ul,h1,h2,h3,h4,h5,h6{
+  margin:0px;
+  padding:0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.all{
+  background-color: #fbfbfb;
+}
+
+
+/* ヘッダー */
+header{
+  background-color:#fff;
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+}
+
+
+.logo-wrapper{
+  width:120px;
+  margin:0px auto;
+}
+
+.logo{
+  width:140px;
+}
+
+.menu{
+  margin:0px auto;
+  background-color: #efefef;
+}
+
+.container-wrapper{
+  width:1170px;
+  margin:0px auto;
+}
+
+.container{
+  padding:4px 87.24px;
+  border-left: 1px solid rgba(0,0,0,0.4);
+  border-right: 1px solid rgba(0,0,0,0.4);
+  display: inline-block;
+  /* background-color:#ddd; */
+}
+
+.container:hover{
+  background-color: rgba(80,80,220);
+  opacity:0.8;
+  transition:0.8s;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgba(120,120,120,0.8);
+}
+
+.container:hover .menu-item{
+  color:#fff;
+}
+
+.menu-item{
+  display:block;
+  font-size:18px;
+  color:#000;
+}
+
+.sginUp:hover{
+  background-color: rgb(80,220,80);
+}
+
+/* メイン */
+
+
+#main{
+  margin:0px auto;
+  margin-top:118px;
+  width:1170px;
+}
+
+.feat{
+
+}
+
+.feat-wrapper{
+  float:right;
+}
+
+.featImg{
+
+}
+
+.clear{
+  clear: left;
+}
+
+.explanation{
+  margin-top: 200px
+}
+
+.explanation h1{
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+}
+
+.explanation p{
+  margin-top:20px;
+  font-size:18px;
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+}
+
+.explanation .isidallc{
+  color:rgb(60,90,200);
+}
+
+.consideration{
+  margin-top:128px;
+}
+
+.birth{
+  margin-left:18px;
+}
+
+.back{
+  color:#fbfbfb;
+  cursor: default;
+}
